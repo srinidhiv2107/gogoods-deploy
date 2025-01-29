@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/gogoods-deploy/static/css/main.3d6e749c.css",
+    "main.js": "/gogoods-deploy/static/js/main.0acf09ce.js",
+    "static/media/businessImage.svg": "/gogoods-deploy/static/media/businessImage.d184c6595ae9fcc722468dd2692b6a1f.svg",
+    "static/media/individualImage.svg": "/gogoods-deploy/static/media/individualImage.2acf11e511eedc7f7c69dfb19670fe56.svg",
+    "static/media/IndiaOutline.svg": "/gogoods-deploy/static/media/IndiaOutline.0588a9e23a637a04ac4192050b740ed9.svg",
+    "static/media/vehicles.svg": "/gogoods-deploy/static/media/vehicles.ab789a281ace1874d0c871177f4a7d57.svg",
+    "static/media/IndiaOutline2.svg": "/gogoods-deploy/static/media/IndiaOutline2.fa2f74debf41449e81a05e61df30d774.svg",
+    "static/media/senderPhoto.svg": "/gogoods-deploy/static/media/senderPhoto.953acca7dd9aa6e85fea25101f096358.svg",
+    "static/media/vPointer.svg": "/gogoods-deploy/static/media/vPointer.79c68e4e5695686f1566ccbeb4d05c71.svg",
+    "static/media/senderImage.svg": "/gogoods-deploy/static/media/senderImage.0020da35884ccb21e86c26a514f042c1.svg",
+    "static/media/championPhoto.svg": "/gogoods-deploy/static/media/championPhoto.879c9fdd9d298f9d65049463a1e7c214.svg",
+    "static/media/championImage.svg": "/gogoods-deploy/static/media/championImage.084ff3d6ebd8103a001effeafd4a2e2f.svg",
+    "static/media/instagramIcon.svg": "/gogoods-deploy/static/media/instagramIcon.1dde2b4f97e8748b516cd9d473b85824.svg",
+    "static/media/logo.svg": "/gogoods-deploy/static/media/logo.7b4702c4ce87d81d7a0846a27710d306.svg",
+    "static/media/championIcon.svg": "/gogoods-deploy/static/media/championIcon.a7695c1b7640a6a919bbf587cef5d8de.svg",
+    "static/media/homeBG.svg": "/gogoods-deploy/static/media/homeBG.a45d6bd0708a5daec93edf6f25858aa1.svg",
+    "static/media/appStoreIcon.svg": "/gogoods-deploy/static/media/appStoreIcon.702f836422c12ba9f0b5f9078bc8b79f.svg",
+    "static/media/playStoreIcon.svg": "/gogoods-deploy/static/media/playStoreIcon.d647817fa0360872e515a61a83aa5186.svg",
+    "static/media/linkedinIcon.svg": "/gogoods-deploy/static/media/linkedinIcon.13d7386cc2da58c68827df5f8deabad8.svg",
+    "static/media/arrowUp.svg": "/gogoods-deploy/static/media/arrowUp.1fa1f8834a5d922966363e56e749b96c.svg",
+    "static/media/arrowDown.svg": "/gogoods-deploy/static/media/arrowDown.8604e0e1ff77cf118ba4d89537ad89d6.svg",
+    "static/media/twitterIcon.svg": "/gogoods-deploy/static/media/twitterIcon.9d50a24abd608e5262c4051cec4c9193.svg",
+    "index.html": "/gogoods-deploy/index.html",
+    "static/media/facebookIcon.svg": "/gogoods-deploy/static/media/facebookIcon.9701f31b351cb2a6a7badf81a47d62b2.svg",
+    "static/media/senderIcon.svg": "/gogoods-deploy/static/media/senderIcon.dbd05da400957e5adab5e1ed999d1a1d.svg",
+    "static/media/shadow.svg": "/gogoods-deploy/static/media/shadow.3ab525415e801a6742519ddb3597deda.svg",
+    "static/media/arrow.svg": "/gogoods-deploy/static/media/arrow.1ab79afef1971411b39655a68587dcd3.svg",
+    "static/media/leftLine.svg": "/gogoods-deploy/static/media/leftLine.69b0cd2c3174bc1d127b4866ec920080.svg",
+    "static/media/rightLine.svg": "/gogoods-deploy/static/media/rightLine.ec20efe09e6997f36049f2f4a0c02cd0.svg",
+    "static/media/triangle.svg": "/gogoods-deploy/static/media/triangle.9143bcc08aa19fb5d509cafa99c53e0f.svg",
+    "static/media/whyChooseBG1.svg": "/gogoods-deploy/static/media/whyChooseBG1.2a00415c1fbd8b61e18f9b6fb82bb10a.svg",
+    "static/media/whyChooseBG2.svg": "/gogoods-deploy/static/media/whyChooseBG2.d1621292dd68cc91d5a6ace553e44d23.svg",
+    "main.3d6e749c.css.map": "/gogoods-deploy/static/css/main.3d6e749c.css.map",
+    "main.0acf09ce.js.map": "/gogoods-deploy/static/js/main.0acf09ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d6e749c.css",
+    "static/js/main.0acf09ce.js"
+  ]
+}
