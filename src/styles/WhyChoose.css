@@ -1,0 +1,105 @@
+.why-choose-wrapper {
+    position: relative;
+    height: 159.46rem;
+    width: 100%;
+}
+
+.why-choose {
+    position: absolute;
+    top: 11.17rem;
+    left: 13.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.why-choose .title p {
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 6.5rem;
+    font-weight: 600;
+    line-height: 9.75rem;
+    color: #000000;
+}
+
+.why-choose .title span {
+    color: #C71A1A;
+}
+
+.why-choose-bg1 {
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+    width: 78.4rem;
+    height: 78.4rem;
+}
+
+.why-choose-bg2 {
+    position: absolute;
+    top: 20rem;
+    left: 119rem;
+    width: 59.4rem;
+    height: 59.4rem;
+}
+
+.why-choose .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 52.6rem;
+    height: 22.6rem;
+    padding: 2.4rem;
+    gap: 2.4rem;
+    border: 0.1rem solid #00000033;
+    border-radius: 1.4rem;
+    background: #FFFFFF;
+}
+
+.why-choose .card .content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    width: 100%;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid #00000033;
+}
+
+.why-choose .card .content-1 .number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background: #000000;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+
+.why-choose .card .content-1 p {
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    color: #C71A1A;
+}
+
+.why-choose .card .content-2 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    color: #4F4F4F;
+}

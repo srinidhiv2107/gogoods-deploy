@@ -1,0 +1,125 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 44.66rem;
+    background: #000000;
+}
+
+.footer .footer-heading {
+    position: absolute;
+    top: 10.7rem;
+    left: 13.4rem;
+    width: 55.6rem;
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 6.75rem;
+    color: #FFFFFF;
+}
+
+.footer .get-in-touch-btn {
+    position: absolute;
+    top: 27.5rem;
+    left: 13.4rem;
+    width: 24.2rem;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 1.2rem 1.6rem;
+    border-radius: 1.2rem;
+    border: 0.2rem solid #C71A1A;
+    color: #FFFFFF;
+    background: transparent;
+    transition: background 0.2s ease-in-out;
+}
+
+.footer .get-in-touch-btn:hover {
+    background: #C71A1A;
+}
+
+.footer .links-details-connect-wrapper {
+    position: absolute;
+    top: 11.17rem;
+    right: 17.78rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 71.4rem;
+    height: max-content;
+}
+
+.footer .links-details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 40.5rem;
+}
+
+.footer .links-details-wrapper .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 10.8rem;
+    height: 17.6rem;
+}
+
+.footer .links-details-wrapper .footer-links .footer-link {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer .links-details-wrapper .details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 20.6rem;
+    height: 19.2rem;
+}
+
+.footer .links-details-wrapper .details p {
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+.footer .connect-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer .connect-wrapper .f-connect {
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+}
+
+.footer .copyright-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 36.9rem;
+    padding: 2rem 8rem;
+    width: 100%;
+    height: 7.64rem;
+    border-top: 0.1rem solid #FFFFFF33;
+}
+
+.footer .copyright-wrapper .cr-text {
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+    color: #707070;
+}

@@ -1,0 +1,130 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: -0.2rem;
+    right: 0;
+    height: 10rem;
+    z-index: 100;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 0.1rem solid #5F5C5C;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+    height: 100%;
+}
+
+.logo {
+    width: 7rem;
+    height: 6rem;
+}
+
+.nav-content-right, .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    padding: 0.8rem 0.8rem 1.2rem 0.8rem;
+    transition: border-bottom 0.1s ease-in-out;
+}
+
+.link.active {
+    border-bottom: 0.1rem solid #FFFFFF;
+}
+
+.links a {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.request-call {
+    width: 16rem;
+    margin: 0;
+    padding: 1.1rem 2.8rem;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    border: none;
+    border-radius: 0.8rem;
+    background: #C71A1A;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.request-call:hover {
+    background-color: #A01414;
+}
+
+.menu {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+    .menu {
+        display: flex;
+    }
+
+    .links {
+        position: fixed;
+        top: 8rem;
+        right: 10rem;
+        flex-direction: column;
+        width: max-content;
+        padding: 1rem 2rem;
+        border-radius: 0.8rem;
+        border: 0.1rem solid #5F5C5C;
+        background-color: black;
+        gap: 1rem;
+        scale: 0;
+        visibility: hidden;
+        transform-origin: top right;
+        transition: scale 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    }
+
+    .links.open {
+        scale: 1;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-content {
+        padding: 1rem;
+    }
+
+    .logo img {
+        width: 6rem;
+        height: 5rem;
+    }
+
+    .links a {
+        font-size: 1.4rem;
+    }
+
+    .request-call {
+        font-size: 1.4rem;
+        padding: 0.8rem 1.6rem;
+    }
+}
