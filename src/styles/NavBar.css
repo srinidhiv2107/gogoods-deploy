@@ -19,9 +19,18 @@
     height: 100%;
 }
 
-.logo {
-    width: 7rem;
-    height: 6rem;
+.gogoods-heading {
+    margin: 0;
+    font-family: 'Manrope', 'sans-serif';
+    font-size: 4.28rem;
+    font-weight: 700;
+    line-height: 5.84rem;
+    letter-spacing: 0.04em;
+    color: #C71A1A;
+}
+
+.gogoods-heading span {
+    color: #FFFFFF;
 }
 
 .nav-content-right, .links {
@@ -112,11 +121,6 @@
 @media screen and (max-width: 480px) {
     .nav-content {
         padding: 1rem;
-    }
-
-    .logo img {
-        width: 6rem;
-        height: 5rem;
     }
 
     .links a {

@@ -10,13 +10,13 @@ import businessImage from "../images/businessImage.svg";
 const Work = () => {
   const [type, setType] = useState("Individual");
 
-  const cards = (heading, image) => (
+  const cards = (heading, content, image) => (
     <div className="work-card" key={heading}>
       <img className="card-image" src={image} alt={heading}/>
       <div className="card-heading">{heading}</div>
       <div className="card-body">
         <div className="card-body-content">
-          <p>GoGoods delivers an unparalleled customer service through dedicated customer teams, engaged people dedicated customer teams</p>
+          <p>{content}</p>
         </div>
         <div className="card-body-btns">
           <button className="app-store">
@@ -45,8 +45,16 @@ const Work = () => {
     <div id="championOrSender"  className="work">
       <p className="w-heading">How We Work?</p>
       <div className="work-cards-wrapper">
-        {cards("Champions", championImage)}
-        {cards("Sender", senderImage)}
+        {cards(
+          "Champion",
+          "Once a sender posts a request, champions review it, accept the job, and ensure timely pickup and delivery while staying connected with the sender for real-time updates.",
+          championImage
+        )}
+        {cards(
+          "Sender",
+          "Senders initiate the process by posting their delivery details on the platform and are matched with a champion who handles the pickup and delivery, ensuring full transparency and efficient communication every step of the way.",
+          senderImage
+        )}
       </div>
       <hr className="line"/>
       <div className="work-btns-wrapper">

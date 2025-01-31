@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../styles/NavBar.css';
-import logo from '../images/logo.svg';
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("Home");
@@ -9,7 +8,7 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <div className="nav-content">
-        <img className="logo" src={logo} alt="GoGoods Logo" />
+        <p className="gogoods-heading">Go<span>Goods</span></p>
         <div className="nav-content-right">
           <div className={`links ${menuOpen ? 'open' : ''}`}>
             {[{name: "Home", link: "home"},

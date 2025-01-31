@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/Home.css";
+import logo from "../images/logo.svg";
 import homeBG from "../images/homeBG.svg";
 import IndiaOutline from "../images/IndiaOutline.svg";
 import championIcon from "../images/championIcon.svg";
@@ -9,6 +10,7 @@ const Home = () => {
   return (
     <div id="home" className="home">
       <img className="home-bg" src={homeBG} alt="Background Circle"/>
+      <img className="logo" src={logo} alt="GoGoods Logo" />
       <div className="content">
         <div className="top-content">
           <p>Your Delivery, <span>Our Purpose</span></p>

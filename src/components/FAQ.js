@@ -1,11 +1,29 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "../styles/FAQ.css";
+import { championFAQs, senderFAQs } from "./FrequentlyAskedQuestions";
 import arrowDown from "../images/arrowDown.svg";
 import arrowUp from "../images/arrowUp.svg";
 
+let championQAStates = new Array(championFAQs.length).fill(false);
+let senderQAStates = new Array(senderFAQs.length).fill(false);
+
 const FAQ = () => {
   const [type, setType] = useState("Champion");
-  const [showAnswer, setShowAnswer] = useState(new Array(5).fill(false));
+  const [QAs, setQAs] = useState(championFAQs);
+  const [QAStates, setQAStates] = useState(championQAStates);
+
+  useEffect(() => {
+    if(type === "Champion") {
+      setQAs(championFAQs);
+      senderQAStates = QAStates;
+      setQAStates(championQAStates);
+    }
+    else {
+      setQAs(senderFAQs);
+      championQAStates = QAStates;
+      setQAStates(senderQAStates);
+    }
+  }, [type]);
 
   const faqBtn = (name) => (
     <button
@@ -16,20 +34,10 @@ const FAQ = () => {
     </button>
   );
 
-  const answer = "To improve your ratings, focus on punctuality, maintaining clear communication with customers, and handling goods with care. Providing excellent customer service and being polite can also make a big difference. Responding promptly to requests and avoiding cancellations will help build trust and improve your overall performance.";
-
-  const QAs = [
-    {q: "What is GoGoods?", ans: answer},
-    {q: "How do I use GoGoods?", ans: answer},
-    {q: "Can I cancel rides?", ans: answer},
-    {q: "How can I improve my ratings?", ans: answer},
-    {q: "Can I rate customers?", ans: answer}
-  ];
-
-  const toogleShowAnswer = (index) => {
-    const newShowAnswer = [...showAnswer];
-    newShowAnswer[index] = !newShowAnswer[index];
-    setShowAnswer(newShowAnswer);
+  const toogleQAState = (index) => {
+    const newQAStates = [...QAStates];
+    newQAStates[index] = !newQAStates[index];
+    setQAStates(newQAStates);
   }
 
   return (
@@ -43,16 +51,16 @@ const FAQ = () => {
         {QAs.map((QA, index) => (
           <div key={index} className="faq">
             <div className="question-wrapper">
-              <p className="question">{QA.q}</p>
-              {(!showAnswer[index]?
+              <p className="question">{QA.question}</p>
+              {(!QAStates[index]?
                   <img className="arrow-btn" src={arrowDown} alt="Arrow Down"
-                       onClick={() => toogleShowAnswer(index)}/> :
+                       onClick={() => toogleQAState(index)}/> :
                   <img className="arrow-btn" src={arrowUp} alt="Arrow Up"
-                       onClick={() => toogleShowAnswer(index)}/>
+                       onClick={() => toogleQAState(index)}/>
               )}
             </div>
-            {showAnswer[index] &&
-              <p className="answer">{QA.ans}</p>
+            {QAStates[index] &&
+              <p className="answer">{QA.answer}</p>
             }
           </div>
         ))}

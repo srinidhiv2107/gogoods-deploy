@@ -1,14 +1,13 @@
 .faq-parent {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 13.78rem 13.59rem 30.26rem 13.22rem;
     width: 100%;
-    height: 130rem;
     background: #FFFFFF;
 }
 
 .faq-heading {
-    position: absolute;
-    top: 13.81rem;
-    left: 13.22rem;
     margin: 0;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 600;
@@ -18,12 +17,10 @@
 }
 
 .faq-btns-wrapper {
-    position: absolute;
-    top: 35.42rem;
-    left: 13.22rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 11.81rem;
     width: 165rem;
     height: 16.1rem;
 }
@@ -51,9 +48,7 @@
 }
 
 .faqs-wrapper {
-    position: absolute;
-    top: 53.12rem;
-    left: 13.22rem;
+    margin-top: 1.6rem;
     width: 165rem;
 }
 
