@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gogoods-deploy/static/css/main.3d6e749c.css",
-    "main.js": "/gogoods-deploy/static/js/main.0acf09ce.js",
+    "main.css": "/gogoods-deploy/static/css/main.751a7dd3.css",
+    "main.js": "/gogoods-deploy/static/js/main.0fe0b5ee.js",
     "static/media/businessImage.svg": "/gogoods-deploy/static/media/businessImage.d184c6595ae9fcc722468dd2692b6a1f.svg",
     "static/media/individualImage.svg": "/gogoods-deploy/static/media/individualImage.2acf11e511eedc7f7c69dfb19670fe56.svg",
     "static/media/IndiaOutline.svg": "/gogoods-deploy/static/media/IndiaOutline.0588a9e23a637a04ac4192050b740ed9.svg",
@@ -19,10 +19,10 @@
     "static/media/appStoreIcon.svg": "/gogoods-deploy/static/media/appStoreIcon.702f836422c12ba9f0b5f9078bc8b79f.svg",
     "static/media/playStoreIcon.svg": "/gogoods-deploy/static/media/playStoreIcon.d647817fa0360872e515a61a83aa5186.svg",
     "static/media/linkedinIcon.svg": "/gogoods-deploy/static/media/linkedinIcon.13d7386cc2da58c68827df5f8deabad8.svg",
+    "index.html": "/gogoods-deploy/index.html",
     "static/media/arrowUp.svg": "/gogoods-deploy/static/media/arrowUp.1fa1f8834a5d922966363e56e749b96c.svg",
     "static/media/arrowDown.svg": "/gogoods-deploy/static/media/arrowDown.8604e0e1ff77cf118ba4d89537ad89d6.svg",
     "static/media/twitterIcon.svg": "/gogoods-deploy/static/media/twitterIcon.9d50a24abd608e5262c4051cec4c9193.svg",
-    "index.html": "/gogoods-deploy/index.html",
     "static/media/facebookIcon.svg": "/gogoods-deploy/static/media/facebookIcon.9701f31b351cb2a6a7badf81a47d62b2.svg",
     "static/media/senderIcon.svg": "/gogoods-deploy/static/media/senderIcon.dbd05da400957e5adab5e1ed999d1a1d.svg",
     "static/media/shadow.svg": "/gogoods-deploy/static/media/shadow.3ab525415e801a6742519ddb3597deda.svg",
@@ -32,11 +32,11 @@
     "static/media/triangle.svg": "/gogoods-deploy/static/media/triangle.9143bcc08aa19fb5d509cafa99c53e0f.svg",
     "static/media/whyChooseBG1.svg": "/gogoods-deploy/static/media/whyChooseBG1.2a00415c1fbd8b61e18f9b6fb82bb10a.svg",
     "static/media/whyChooseBG2.svg": "/gogoods-deploy/static/media/whyChooseBG2.d1621292dd68cc91d5a6ace553e44d23.svg",
-    "main.3d6e749c.css.map": "/gogoods-deploy/static/css/main.3d6e749c.css.map",
-    "main.0acf09ce.js.map": "/gogoods-deploy/static/js/main.0acf09ce.js.map"
+    "main.751a7dd3.css.map": "/gogoods-deploy/static/css/main.751a7dd3.css.map",
+    "main.0fe0b5ee.js.map": "/gogoods-deploy/static/js/main.0fe0b5ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d6e749c.css",
-    "static/js/main.0acf09ce.js"
+    "static/css/main.751a7dd3.css",
+    "static/js/main.0fe0b5ee.js"
   ]
 }
