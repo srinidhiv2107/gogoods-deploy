@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gogoods-deploy/static/css/main.751a7dd3.css",
+    "main.css": "/gogoods-deploy/static/css/main.e7d88b3c.css",
     "main.js": "/gogoods-deploy/static/js/main.0fe0b5ee.js",
     "static/media/businessImage.svg": "/gogoods-deploy/static/media/businessImage.d184c6595ae9fcc722468dd2692b6a1f.svg",
     "static/media/individualImage.svg": "/gogoods-deploy/static/media/individualImage.2acf11e511eedc7f7c69dfb19670fe56.svg",
@@ -32,11 +32,11 @@
     "static/media/triangle.svg": "/gogoods-deploy/static/media/triangle.9143bcc08aa19fb5d509cafa99c53e0f.svg",
     "static/media/whyChooseBG1.svg": "/gogoods-deploy/static/media/whyChooseBG1.2a00415c1fbd8b61e18f9b6fb82bb10a.svg",
     "static/media/whyChooseBG2.svg": "/gogoods-deploy/static/media/whyChooseBG2.d1621292dd68cc91d5a6ace553e44d23.svg",
-    "main.751a7dd3.css.map": "/gogoods-deploy/static/css/main.751a7dd3.css.map",
+    "main.e7d88b3c.css.map": "/gogoods-deploy/static/css/main.e7d88b3c.css.map",
     "main.0fe0b5ee.js.map": "/gogoods-deploy/static/js/main.0fe0b5ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.751a7dd3.css",
+    "static/css/main.e7d88b3c.css",
     "static/js/main.0fe0b5ee.js"
   ]
 }
